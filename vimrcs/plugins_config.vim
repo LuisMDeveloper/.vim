@@ -9,45 +9,45 @@ call pathogen#helptags()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => TaskLists
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>td <Plug>TaskList
+"map <leader>td <Plug>TaskList
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Gundo = Revision History
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>g :GundoToggle<CR>
+"map <leader>g :GundoToggle<CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SuperTab = Code Completation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au FileType python set omnifunc=pythoncomplete#Complete
-let g:SuperTabDefaultCompletionType = "context"
-set completeopt=menuone,longest,preview
+"au FileType python set omnifunc=pythoncomplete#Complete
+"let g:SuperTabDefaultCompletionType = "context"
+"set completeopt=menuone,longest,preview
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>n :NERDTreeToggle<CR>
+"map <leader>n :NERDTreeToggle<CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ropevim = Refactoring and Go to definition
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>j :RopeGotoDefinition<CR>
-map <leader>r :RopeRename<CR>
+"map <leader>j :RopeGotoDefinition<CR>
+"map <leader>r :RopeRename<CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ack = Searching
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <leader>a <Esc>:Ack!
+"nmap <leader>a <Esc>:Ack!
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set statusline+=%{fugitive#statusline()}
+"set statusline+=%{fugitive#statusline()}
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
