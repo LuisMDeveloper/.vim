@@ -22,8 +22,14 @@ call pathogen#helptags()
 " => SuperTab = Code Completation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "au FileType python set omnifunc=pythoncomplete#Complete
-"let g:SuperTabDefaultCompletionType = "context"
-"set completeopt=menuone,longest,preview
+let g:SuperTabDefaultCompletionType = "context"
+set completeopt=menuone,longest,preview
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Jedi : Code Completation
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jedi#popup_on_dot = 0
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
